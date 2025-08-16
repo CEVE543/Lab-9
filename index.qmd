@@ -1,8 +1,8 @@
 ---
-title: "Lab 1"
-subtitle: "Julia Setup & Hello World"
+title: "Lab 9"
+subtitle: "PCA-Based Downscaling"
 author: CEVE 543 Fall 2025
-date: "2025-08-29"
+date: "2025-11-07"
 
 engine: julia
 
