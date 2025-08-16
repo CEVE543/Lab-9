@@ -1,0 +1,35 @@
+---
+title: "Lab 1"
+subtitle: "Julia Setup & Hello World"
+author: CEVE 543 Fall 2025
+date: "2025-08-29"
+
+engine: julia
+
+format:
+  html:
+    toc: true
+    toc-depth: 2
+    code-block-bg: "#f8f8f8"
+    code-block-border-left: "#e1e4e5"
+    theme: default
+    number-sections: true
+    fig-format: svg
+  typst:
+    fontsize: 11pt
+    margin: 
+      x: 1in
+      y: 1in
+    number-sections: true
+    fig-format: svg
+
+execute: 
+  cache: true
+  freeze: auto
+
+# Code formatting options
+code-overflow: wrap
+code-line-numbers: false
+code-block-font-size: "0.85em"
+---
+
