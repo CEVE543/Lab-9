@@ -1,8 +1,8 @@
 ---
 title: "Lab 9"
-subtitle: "PCA-Based Downscaling"
+subtitle: "Quantile Mapping Implementation"
 author: CEVE 543 Fall 2025
-date: "2025-11-07"
+date: "2025-10-29"
 
 engine: julia
 
@@ -32,4 +32,10 @@ code-overflow: wrap
 code-line-numbers: false
 code-block-font-size: "0.85em"
 ---
+
+## Topics
+
+- Bias correction coding
+- Statistical validation
+- Breaking physical correlations
 
