@@ -43,10 +43,33 @@ code-line-numbers: false
 code-block-font-size: "0.85em"
 ---
 
-## Topics
+## Objectives
 
-- Empirical and parametric quantile mapping
-- Bias correction validation and assessment
-- Correlation preservation challenges
-- Hydrological model forcing with corrected data
+1. Implement empirical and parametric quantile mapping
+1. Apply bias correction to temperature and precipitation for hydrological modeling
+1. Validate bias correction methods statistically
+1. Understand correlation preservation challenges
+
+## Before
+
+::: {.callout-important}
+## Instructions
+
+Do this before the lab date so that lab itself can go more smoothly.
+:::
+
+## Background and Reading
+
+<!-- Content will be added here -->
+
+## Tasks
+
+Modify the code section below to address the following tasks.
+
+1. Implement both empirical and parametric quantile mapping approaches
+1. Apply bias correction to temperature and precipitation data
+1. Validate bias correction methods using statistical assessments
+1. Force hydrological models with bias-corrected climate data and assess performance
+
+## Code
 
