@@ -1,29 +1,30 @@
-# Lab 9: GCM Analysis & Bias Assessment
+# Lab 9: Quantile Mapping Implementation
 
-**Date:** October 27, 2025 | **Module:** 2 | **Week:** 9
+**Date:** October 31, 2025 | **Module:** 2 | **Week:** 11
 
 ## Overview
 
-This lab introduces students to working with Global Climate Model (GCM) outputs for hydrological applications. Students will learn to download and process GCM climate data, assess statistical biases compared to observations, and force hydrological models with raw GCM data to understand the need for bias correction.
+This lab introduces students to implementing quantile mapping algorithms for climate data bias correction. Students will learn both empirical and parametric approaches to quantile mapping, validate their implementations, and understand the challenges of preserving correlations between climate variables.
 
 ## Topics Covered
 
-- Downloading GCM data from climate data repositories
-- Statistical bias comparison between GCM outputs and observations
-- Forcing hydrological models with raw GCM data
-- Understanding systematic biases in climate models
-- Data processing workflows for climate datasets
+- Empirical and parametric quantile mapping implementation
+- Bias correction validation and statistical assessment  
+- Correlation preservation challenges in multivariate correction
+- Hydrological model forcing with bias-corrected climate data
+- Comparison of different bias correction approaches
 
 ## Objectives
 
-- Download and process GCM climate data
-- Assess statistical biases in GCM outputs
-- Force hydrological models with raw GCM data
-- Understand the limitations of raw climate model outputs
+- Implement empirical and parametric quantile mapping
+- Apply bias correction to temperature and precipitation
+- Validate bias correction methods statistically
+- Understand correlation preservation challenges
+- Force hydrological models with bias-corrected climate data
 
 ## Connection to Problem Sets
 
-This lab builds the GCM data processing skills that students will need for PS2 Task 3, establishing the foundation for understanding climate model outputs and the necessity for bias correction in impact studies.
+This lab builds the quantile mapping tools that students will need for PS2 Task 4 (implementing bias correction and assessing improvements in streamflow projections), providing practical experience with the most common climate downscaling approach.
 
 ---
 

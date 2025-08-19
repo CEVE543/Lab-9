@@ -1,16 +1,18 @@
 ---
-title: "Lab 9: GCM Analysis & Bias Assessment"
-subtitle: "Downloading GCM data, Statistical bias comparison, Forcing hydro model with raw GCM"
+title: "Lab 9: Quantile Mapping Implementation"
+subtitle: "Empirical and parametric quantile mapping, bias correction validation, correlation preservation challenges"
 author: CEVE 543 Fall 2025
-date: "2025-10-27"
+date: "2025-10-31"
 type: "lab"
 module: 2
-week: 9
+week: 11
 objectives:
-  - "Download and process GCM climate data"
-  - "Assess statistical biases in GCM outputs"
-  - "Force hydrological models with raw GCM data"
-ps_connection: "Builds GCM data processing skills for PS2 Task 3"
+  - "Implement empirical and parametric quantile mapping"
+  - "Apply bias correction to temperature and precipitation"
+  - "Validate bias correction methods statistically"
+  - "Understand correlation preservation challenges"
+  - "Force hydrological models with bias-corrected climate data"
+ps_connection: "Builds quantile mapping tools for PS2 Task 4 (implementing bias correction and assessing improvements in streamflow projections)"
 
 engine: julia
 
@@ -43,7 +45,8 @@ code-block-font-size: "0.85em"
 
 ## Topics
 
-- Downloading GCM data
-- Statistical bias comparison
-- Forcing hydro model with raw GCM
+- Empirical and parametric quantile mapping
+- Bias correction validation and assessment
+- Correlation preservation challenges
+- Hydrological model forcing with corrected data
 
