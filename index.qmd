@@ -1,5 +1,5 @@
 ---
-title: "Lab 9: Quantile Mapping Implementation"
+title: "CEVE 543 Fall 2025 Lab 9: Quantile Mapping Implementation"
 subtitle: "Empirical and parametric quantile mapping, bias correction validation, correlation preservation challenges"
 author: CEVE 543 Fall 2025
 date: "2025-10-31"
