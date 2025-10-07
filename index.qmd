@@ -1,18 +1,18 @@
 ---
-title: "CEVE 543 Fall 2025 Lab 9: Quantile Mapping Implementation"
-subtitle: "Empirical and parametric quantile mapping, bias correction validation, correlation preservation challenges"
+title: "CEVE 543 Fall 2025 Lab 9: HMM & NHMM Implementation"
+subtitle: "2-state HMM implementation, NHMM extensions, climate change scenarios, synthetic weather generation"
 author: CEVE 543 Fall 2025
-date: "2025-10-31"
+date: "2025-11-07"
 type: "lab"
 module: 2
-week: 11
+week: 12
 objectives:
-  - "Implement empirical and parametric quantile mapping"
-  - "Apply bias correction to temperature and precipitation"
-  - "Validate bias correction methods statistically"
-  - "Understand correlation preservation challenges"
-  - "Force hydrological models with bias-corrected climate data"
-ps_connection: "Builds quantile mapping tools for PS2 Task 4 (implementing bias correction and assessing improvements in streamflow projections)"
+  - "Implement 2-state Hidden Markov Model from scratch"
+  - "Extend to non-homogeneous HMM with time-varying parameters"
+  - "Apply climate change parameter perturbation strategies"
+  - "Generate synthetic weather sequences for hydrological modeling"
+  - "Validate weather generation models against observations"
+ps_connection: "Builds comprehensive HMM toolkit for PS2 Tasks 5-6 (HMM weather generator, climate scenarios, and uncertainty analysis)"
 
 engine: julia
 
@@ -45,10 +45,10 @@ code-block-font-size: "0.85em"
 
 ## Objectives
 
-1. Implement empirical and parametric quantile mapping
-1. Apply bias correction to temperature and precipitation for hydrological modeling
-1. Validate bias correction methods statistically
-1. Understand correlation preservation challenges
+1. Implement 2-state Hidden Markov Model from scratch
+1. Extend to non-homogeneous HMM with time-varying parameters
+1. Apply climate change parameter perturbation strategies
+1. Generate and validate synthetic weather sequences for hydrological modeling
 
 ## Before
 
@@ -66,10 +66,10 @@ Do this before the lab date so that lab itself can go more smoothly.
 
 Modify the code section below to address the following tasks.
 
-1. Implement both empirical and parametric quantile mapping approaches
-1. Apply bias correction to temperature and precipitation data
-1. Validate bias correction methods using statistical assessments
-1. Force hydrological models with bias-corrected climate data and assess performance
+1. Implement 2-state HMM from scratch with EM parameter estimation
+1. Extend to non-homogeneous HMM with time-varying transition probabilities
+1. Apply climate change parameter perturbation strategies to model projections
+1. Generate synthetic weather sequences and validate against observations
 
 ## Code
 

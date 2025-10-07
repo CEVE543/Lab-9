@@ -1,30 +1,31 @@
-# Lab 9: Quantile Mapping Implementation
+# Lab 10: HMM & NHMM Implementation
 
-**Date:** October 31, 2025 | **Module:** 2 | **Week:** 11
+**Date:** November 7, 2025 | **Module:** 2 | **Week:** 12
 
 ## Overview
 
-This lab introduces students to implementing quantile mapping algorithms for climate data bias correction. Students will learn both empirical and parametric approaches to quantile mapping, validate their implementations, and understand the challenges of preserving correlations between climate variables.
+This comprehensive lab covers both basic Hidden Markov Models and their non-homogeneous extensions for climate change applications. Students will implement HMMs from scratch, extend them to time-varying parameters, and apply climate change scenarios for future weather generation.
 
 ## Topics Covered
 
-- Empirical and parametric quantile mapping implementation
-- Bias correction validation and statistical assessment  
-- Correlation preservation challenges in multivariate correction
-- Hydrological model forcing with bias-corrected climate data
-- Comparison of different bias correction approaches
+- 2-state HMM implementation from scratch
+- Parameter estimation using EM algorithm or maximum likelihood
+- Non-homogeneous HMM extensions with time-varying parameters
+- Climate change parameter perturbation strategies
+- Synthetic weather generation and validation for current and future climates
+- Multi-scenario ensemble generation
 
 ## Objectives
 
-- Implement empirical and parametric quantile mapping
-- Apply bias correction to temperature and precipitation
-- Validate bias correction methods statistically
-- Understand correlation preservation challenges
-- Force hydrological models with bias-corrected climate data
+- Implement 2-state Hidden Markov Model from scratch
+- Extend to non-homogeneous HMM with time-varying parameters
+- Apply climate change parameter perturbation strategies
+- Generate synthetic weather sequences for hydrological modeling
+- Validate weather generation models against observations
 
 ## Connection to Problem Sets
 
-This lab builds the quantile mapping tools that students will need for PS2 Task 4 (implementing bias correction and assessing improvements in streamflow projections), providing practical experience with the most common climate downscaling approach.
+This lab builds the comprehensive HMM toolkit that students will use for PS2 Tasks 5-6 (HMM weather generator, climate scenarios, and uncertainty analysis), providing both basic and advanced weather generation capabilities in one integrated lab.
 
 ---
 
