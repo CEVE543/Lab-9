@@ -1,18 +1,17 @@
 ---
-title: "CEVE 543 Fall 2025 Lab 9: HMM & NHMM Implementation"
-subtitle: "2-state HMM implementation, NHMM extensions, climate change scenarios, synthetic weather generation"
+title: "CEVE 543 Fall 2025 Lab 9: HMM and NHMM Implementation"
+subtitle: "Hidden Markov Models for precipitation downscaling"
 author: CEVE 543 Fall 2025
 date: "2025-11-07"
 type: "lab"
 module: 2
 week: 12
 objectives:
-  - "Implement 2-state Hidden Markov Model from scratch"
-  - "Extend to non-homogeneous HMM with time-varying parameters"
-  - "Apply climate change parameter perturbation strategies"
-  - "Generate synthetic weather sequences for hydrological modeling"
-  - "Validate weather generation models against observations"
-ps_connection: "Builds comprehensive HMM toolkit for PS2 Tasks 5-6 (HMM weather generator, climate scenarios, and uncertainty analysis)"
+  - "Fit Hidden Markov Model to observed precipitation data"
+  - "Understand state assignments and parameter interpretation"
+  - "Explore non-homogeneous HMM extensions for nonstationarity"
+  - "Validate HMM fit and assess model performance"
+ps_connection: "Builds HMM implementation and interpretation skills for PS2 Part 3"
 
 engine: julia
 
@@ -45,10 +44,10 @@ code-block-font-size: "0.85em"
 
 ## Objectives
 
-1. Implement 2-state Hidden Markov Model from scratch
-1. Extend to non-homogeneous HMM with time-varying parameters
-1. Apply climate change parameter perturbation strategies
-1. Generate and validate synthetic weather sequences for hydrological modeling
+1. Fit Hidden Markov Model to observed precipitation data
+1. Understand state assignments and parameter interpretation
+1. Explore non-homogeneous HMM extensions for nonstationarity
+1. Validate HMM fit and assess model performance
 
 ## Before
 
@@ -66,10 +65,18 @@ Do this before the lab date so that lab itself can go more smoothly.
 
 Modify the code section below to address the following tasks.
 
-1. Implement 2-state HMM from scratch with EM parameter estimation
+1. Fit 2-state Hidden Markov Model to daily precipitation data
+1. Interpret HMM states and parameters in terms of weather conditions
 1. Extend to non-homogeneous HMM with time-varying transition probabilities
-1. Apply climate change parameter perturbation strategies to model projections
-1. Generate synthetic weather sequences and validate against observations
+1. Validate model fit using statistical tests and visualizations
 
 ## Code
+
+```{julia}
+#| output: false
+using Pkg
+lab_dir = dirname(@__FILE__)
+Pkg.activate(lab_dir)
+# Pkg.instantiate() # uncomment this the first time you run the lab to install packages, then comment it back
+```
 
